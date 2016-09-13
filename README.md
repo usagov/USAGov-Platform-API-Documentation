@@ -38,4 +38,4 @@ The USAGov Platform API returns results in json, with an optional callback param
 
 ## API Data Models
 
-To see the full reference for each individual model, see our [reference page](https://github.com/usagov/USAGov-Platform-API-Documentation/wiki/API-Data-Models).
+To see the full reference for each individual model, see our [reference page](https://github.com/usagov/USAGov-Platform-API-Documentation/wiki).
