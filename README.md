@@ -25,17 +25,14 @@ Our USAGov Platform API is accessible via HTTP GET requests and does not require
 
 The base URL for the API is https://platform-api.usa.gov/api/v1/usagov/. Append the API call and format you’d like to make to this URL.
 
-Currently, two output formats are available:
+The API currently supports the JSON format:
 
 1.  JSON (such as https://platform-api.usa.gov/api/v1/usagov/directory_records.json)
-2.  JSONP (such as https://platform-api.usa.gov/api/v1/usagov/directory_records.jsonp?callback=callmemaybe). When requesting JSONP, you should include a callback parameter with the name of the callback function you would like called.
 
 For the purposes of this documentation, only JSON sample calls and results will be shown.
+
+To see the full API reference, please see our [wiki page](https://github.com/usagov/USAGov-Platform-API-Documentation/wiki).
 
 ### API Result Formats
 
 The USAGov Platform API returns results in json, with an optional callback parameter to enable jsonp support.
-
-## API Data Models
-
-To see the full reference for each individual model, see our [reference page](https://github.com/usagov/USAGov-Platform-API-Documentation/wiki).
